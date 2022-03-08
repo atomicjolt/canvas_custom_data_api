@@ -3,8 +3,11 @@
 Adds a Canvas API endpoint to return custom user data for all enrolled users in a course.  Access is restricted to 
 teachers.
 
-## Example Usage
+```
+GET /api/v1/courses/:course_id/user_custom_data(/*scope)?ns=<namespace>
+```
 
+## Example Usage
 
 ```
 https://<canvas>/api/v1/courses/1234/enrollments/user_custom_data/food_app/favorites/dessert?ns=com.my-organization.canvas-app
