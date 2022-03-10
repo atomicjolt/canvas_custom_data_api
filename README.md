@@ -4,7 +4,7 @@ Adds a Canvas API endpoint to return custom user data for all enrolled users in 
 teachers.
 
 ```
-GET /api/v1/courses/:course_id/user_custom_data(/*scope)?ns=<namespace>
+GET /api/v1/courses/:course_id/enrollments/user_custom_data(/*scope)?ns=<namespace>
 ```
 
 ## Example Usage
